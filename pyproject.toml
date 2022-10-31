@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-naff = {extras = ["orjson"]}
+naff = {extras = ["orjson"], version = "*"}
 prometheus-client = "^0.14.1"
 uvicorn = "^0.18.2"
 
